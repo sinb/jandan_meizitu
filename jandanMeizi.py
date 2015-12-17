@@ -98,7 +98,7 @@ if __name__ == '__main__':
     start = 1600
     end = 1580
     for page in range(start, end-1, -1):
-        time.sleep(2)    
+        time.sleep(3)    
         url =  base_url + str(page)
         print url
         try:
