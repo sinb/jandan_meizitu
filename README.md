@@ -6,6 +6,7 @@ BeautifulSoup
 mechanize
 ```
 ##使用
+会自动在当前目录创建两个文件夹,一个meizitu存放图片,一个htmls存放html.
 ```
 python jandanMeizi.py
 ```
@@ -33,7 +34,7 @@ http://jandan.net/ooxx/page-1187
 ```
 ###真实效果(咳咳..)
 ![](yougotit.png)
-##改代码, jandanMeizi.py
+##main, jandanMeizi.py
 煎蛋关闭了太过久远的页面,比如我扒的时候,900页以下就找不到了.
 ```python
 if __name__ == '__main__':
