@@ -11,7 +11,7 @@ mechanize
 python jandanMeizi.py
 ```
 ##防被封
-我也不知道咋整,所以每隔2秒请求一个煎蛋页面.
+我也不知道咋整,所以每隔3秒请求一个煎蛋页面.
 ##使用效果
 ```python
 http://jandan.net/ooxx/page-1189
@@ -53,7 +53,7 @@ if __name__ == '__main__':
     start = 1650
     end = 1601
     for page in range(start, end-1, -1):
-        time.sleep(2)    
+        time.sleep(3)    
         url =  base_url + str(page)
         print url
         try:
