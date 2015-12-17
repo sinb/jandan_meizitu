@@ -75,3 +75,5 @@ if __name__ == '__main__':
         
 
 ```
+##无聊图
+无聊图和meizitu一样,把baseurl换成无聊图的就可以,在jandanWow.py
