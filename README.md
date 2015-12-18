@@ -8,7 +8,10 @@ mechanize
 ##使用
 会自动在当前目录创建两个文件夹,一个meizitu存放图片,一个htmls存放html.
 ```
-python jandanMeizi.py
+#默认oo阈值是500, 开始页面1600, 终止页面1500
+python jandanMeizi.py 1600 1500 
+#可以自己设阈值为200
+python jandanMeizi.py 1600 1500 200
 ```
 ##防被封
 我也不知道咋整,所以每隔3秒请求一个煎蛋页面.
